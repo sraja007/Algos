@@ -1,0 +1,60 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>nnn</title>
+    <script>
+        function onload() {
+            window.addEventListener("resize", resizeHandler);
+        }
+
+        function resizeHandler(e) {
+            //alert('got resize');
+            res.innerHTML += "Resize event <br />"
+            var inResize = true;
+        }
+    </script>
+
+
+  
+
+    <style>
+        /* @media all and (min-width:899px) */
+        .shell-category-nav {
+            width: 90%;
+        }
+
+        .shell-category-nav {
+            white-space: nowrap;
+        }
+
+        .shell-category-header .shell-category-nav .shell-category-top-level {
+            display: inline-block;
+            overflow-x: hidden;
+        }
+
+        .shell-category-header i[class*='shell-icon-'] {
+            display: inline-block;
+            width: 1em;
+            height: 1em;
+        }
+        /* @media all and (min-width:899px) */
+        .shell-category-header .shell-category-nav .shell-category-top-level > .c-top-nav-item {
+            display: inline-block;
+        }
+    </style>
+
+
+
+</head>
+<body onload="onload()">
+    
+
+    <br />
+    <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+
+    <p id="res"></p>
+</body>
+</html>
+
+
